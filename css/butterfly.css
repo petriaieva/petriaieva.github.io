@@ -1,0 +1,61 @@
+/* line 3, ../sass/butterfly.sass */
+layout_butterfly {
+  background-color: #fafafa;
+}
+
+/* line 6, ../sass/butterfly.sass */
+.description {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 10, ../sass/butterfly.sass */
+.heading_main_butterfly {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 36px;
+  regular: 400;
+  color: #212121;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+/* line 17, ../sass/butterfly.sass */
+.nav_list_butterfly {
+  padding: 0;
+  margin: 20px 0;
+}
+
+/* line 21, ../sass/butterfly.sass */
+.nav_ul_butterfly {
+  padding: 0;
+  text-align: center;
+}
+
+/* line 25, ../sass/butterfly.sass */
+.nav_item_butterfly {
+  padding: 0 10px;
+  display: inline-block;
+}
+
+/* line 29, ../sass/butterfly.sass */
+.nav_link_butterfly {
+  font-size: 16px;
+  color: #646465;
+  text-decoration: none;
+}
+
+/* line 34, ../sass/butterfly.sass */
+.nav_link_butterfly:hover {
+  color: #212121;
+  text-decoration: none;
+}
+
+/* line 38, ../sass/butterfly.sass */
+.hr {
+  width: 100%;
+  margin: 5px 0 0 0;
+  border-top-color: #646465;
+  border-bottom: 0;
+}

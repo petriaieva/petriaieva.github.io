@@ -1,0 +1,39 @@
+/* MAIN */
+/* line 4, ../sass/main.sass */
+body {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 18px;
+  regular: 400;
+  color: #646465;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+
+/* line 9, ../sass/main.sass */
+.layout_main {
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+/* line 14, ../sass/main.sass */
+.heading_main {
+  margin-top: 200px;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 36px;
+  regular: 400;
+  color: #212121;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 20, ../sass/main.sass */
+.aboutme {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* line 24, ../sass/main.sass */
+.aboutme_min {
+  font-size: 16px;
+  text-align: center;
+}

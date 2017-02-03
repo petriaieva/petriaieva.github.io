@@ -1,0 +1,59 @@
+/* NAVBAR */
+
+$navbar-bg-color: #0884ba
+$navbar-link-color: #faf9f9
+$navbar-link-hover: #b0b0b0
+
+.nav
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 100
+  padding: 16px 5px
+  background-color: $navbar-bg-color
+  transition: all 0.5s
+  text-align: center
+
+.navbar-default
+  background-color: $navbar-bg-color
+  border-color: $navbar-bg-color
+
+.nav_scrolled
+  padding: 0px 5px
+  opacity: 0.8
+
+.nav_list
+  padding: 0
+  margin: 16px 0
+
+.nav_list li
+  display: inline-block
+
+.nav_link
+  text-decoration: none
+  margin-left: 20px
+  padding: 10px
+  font-size: 16px
+  color: $navbar-link-color
+
+.nav_link:hover
+  text-decoration: none
+  color: $navbar-link-hover
+
+@media screen and (max-width: 768px)
+  .nav
+    padding: 0
+    
+  .nav_list
+    margin: 0
+    padding: 0
+
+  .nav_list li
+    display: block
+    margin: 0
+    padding: 0
+
+  .nav_link
+    display: block
+    margin: 0
+    padding: 5px 5px 5px 5px

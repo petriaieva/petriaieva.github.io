@@ -1,0 +1,220 @@
+@font-face{
+    font-family: "Gotham Rounded";
+    src: url('fonts/GothamRoundedBold_21016.ttf');
+    
+}
+@font-face{
+    font-family: "Gotham Rounded medium";
+    src: url('fonts/GothamRoundedMedium_21022.ttf');
+}
+@font-face{
+    font-family: "Gotham Rounded book";
+    src: url('fonts/GothamRoundedBook_21018.ttf');
+}
+body{
+    overflow-x: hidden;
+}
+.main_bg{
+    width: 100%;
+    height: 745px;
+    background: url(img/main_bg.png) no-repeat;
+    position: relative;
+    
+    }
+
+.top-menu{
+    display: inline-block;
+    margin: 40px auto;
+    line-height: 53px;
+    margin-left: -41px;
+    text-align: center;
+    list-style: none;
+ }
+.top-menu > li{
+    float:left;
+}
+.top-menu > li > a{
+    display: block;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: "Gotham Rounded";
+    letter-spacing: 3px;
+}
+.top-menu > li > a > .logo{
+    margin-bottom: 20px;
+}
+.description > h1{
+  font-size: 36px;
+  font-family: "Gotham Rounded";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 210px;
+  letter-spacing: 4px;
+ }
+.description > h2{
+  font-size: 24px;
+  font-family: "Gotham Rounded";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 340px;
+  letter-spacing: 3px;
+ }
+
+.description > p{
+  font-size: 14px;
+  font-family: "Gotham Rounded medium";
+  color: rgb(255, 255, 255);
+  
+}
+
+button{
+  text-transform: uppercase;
+  font-family: "Gotham Rounded";
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  background-color: rgb(22, 160, 133);
+  border: 0px;
+  padding: 15px 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(22, 160, 133);
+  transition: all 0.5s;
+}
+.social-icons{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+ 
+}
+.social-icons > img{
+  margin: 6px;
+}
+.home{
+    padding-top: 100px;
+    background-color: RGB(245,246,247);
+}
+.home span{
+    float: right;
+    margin-bottom: 10px;
+ }
+h4{
+   text-transform: uppercase;
+   font-family: "Gotham Rounded";
+   color: rgb(22, 160, 133);
+   margin-bottom: 40px;
+   letter-spacing: 3px;
+}
+h5{
+   text-transform: uppercase;
+   font-family: "Gotham Rounded";
+   color: rgb(55, 55, 55);
+   margin-bottom: 20px;
+   margin-top: 20px;
+   letter-spacing: 2px;
+}
+p{
+    font-family: "Gotham Rounded book";
+    font-size: 12px;
+    color: rgb(55, 55, 55);
+    letter-spacing: 3px;
+}
+.mini{
+    font-family: "Gotham Rounded book";
+    font-size: 10px;
+    color: rgb(55, 55, 55);
+    letter-spacing: 2px;
+}
+.design{
+    padding-top: 100px;
+    background-color: RGB(255,255,255);
+}
+.community{
+    margin-top: 100px;
+    width: 100%;
+    height: 790px;
+    background: url(img/community_bg.png) no-repeat;
+    position: relative;
+    
+}
+#btn_community{
+    border-radius: 3px;
+    background-color: rgb(22, 160, 133);
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+}
+.community input{
+    height: 60px;
+    
+}
+.btn_store{
+    height: 54px;
+    width: 200px;
+    border-radius: 3px;
+    background-color: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    
+}
+.btn_stor_icon{
+    height: 54px;
+    width: 54px;
+    border-radius: 3px;
+    background-color: rgb(22, 160, 133);
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.bottom-menu{
+    margin-top: 100px;
+    list-style: none;
+    padding-left: 0px;
+ }
+.bottom-menu > li{
+    display: inline-block;
+    padding-right: 5px;
+    color: rgb(22, 160, 133);
+    font-family: "Gotham Rounded";
+    font-size: 12px;
+    letter-spacing: 3px;
+ }
+.bottom-menu > li > a{
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+    
+}
+.bottom-menu > li > a:hover{
+    color: rgb(22, 160, 133);
+    
+}
+#p_all_right{
+    color: rgb(55, 55, 55);
+    font-family: "Gotham Rounded";
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.design .logo{
+    padding-bottom: 6px;
+    margin-top: 92px;
+    margin-bottom: 40px;
+}
+#p_download{
+    font-family: "Gotham Rounded book";
+    font-size: 12px;
+    color: rgb(55, 55, 55);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
