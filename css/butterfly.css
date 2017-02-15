@@ -59,3 +59,10 @@ layout_butterfly {
   border-top-color: #646465;
   border-bottom: 0;
 }
+
+/* line 44, ../sass/butterfly.sass */
+.carousel {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}

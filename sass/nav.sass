@@ -40,7 +40,7 @@ $navbar-link-hover: #b0b0b0
   text-decoration: none
   color: $navbar-link-hover
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
   .nav
     padding: 0
     
@@ -57,3 +57,10 @@ $navbar-link-hover: #b0b0b0
     display: block
     margin: 0
     padding: 5px 5px 5px 5px
+    
+  .navbar-default    
+    .navbar-toggle:hover 
+      background-color: $navbar-bg-color
+  .navbar-default
+    .navbar-toggle:focus
+      background-color: $navbar-bg-color   
