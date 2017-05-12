@@ -16,6 +16,17 @@ function initMap() {
 $(document).ready(function(){
     $('#myModal').on('shown.bs.modal', function () {
         initMap();
-  
+    
+
 })
+    var img = document.getElementById('service_img');
+    img.onload = function(){
+        
+        var accordion = document.getElementById('collapseOne');
+        if (accordion.classList.contains("in")) {
+            var elem_child = accordion.childNodes[1];
+            elem_child.style.height = (img.height - 170)+"px";
+        }
+   
+}
 });
