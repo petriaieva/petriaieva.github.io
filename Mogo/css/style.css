@@ -540,17 +540,18 @@ h1 {
   color: RGB(153, 153, 153);
   font-style: italic;
   overflow-y: scroll;
+  min-height: 81px;
 }
 
 /*.glyphicon-menu-down
  * color: RGB(153,153,153) */
-/* line 36, ../sass/service.sass */
+/* line 38, ../sass/service.sass */
 .panel-default .panel-heading {
   background-color: white;
   color: RGB(153, 153, 153);
 }
 
-/* line 41, ../sass/service.sass */
+/* line 43, ../sass/service.sass */
 .panel-heading .accordion-toggle:after {
   font-family: "Glyphicons Halflings";
   content: "\e113";
@@ -558,39 +559,50 @@ h1 {
   color: RGB(153, 153, 153);
 }
 
-/* line 48, ../sass/service.sass */
+/* line 50, ../sass/service.sass */
 .panel-heading .accordion-toggle.collapsed:after {
   content: "\e114";
 }
 
-/* line 50, ../sass/service.sass */
+/* line 52, ../sass/service.sass */
 .panel-body::-webkit-scrollbar {
   width: 5px;
 }
 
-/* line 53, ../sass/service.sass */
+/* line 55, ../sass/service.sass */
 .panel-body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-/* line 57, ../sass/service.sass */
+/* line 59, ../sass/service.sass */
 .panel-body::-webkit-scrollbar-thumb {
   background-color: #95e1d3;
   outline: 1px solid slategrey;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 61, ../sass/service.sass */
+  /* line 63, ../sass/service.sass */
   .img_center {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 64, ../sass/service.sass */
+  /* line 66, ../sass/service.sass */
   .service {
     margin-bottom: 30px;
   }
-  /* line 66, ../sass/service.sass */
+}
+@media screen and (max-width: 992px) {
+  /* line 71, ../sass/service.sass */
+  .service .panel-body {
+    max-height: 160px;
+  }
+  /* line 73, ../sass/service.sass */
+  .service #service_img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 76, ../sass/service.sass */
   .service .panel-group {
     margin-top: 10px;
   }

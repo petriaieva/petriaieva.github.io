@@ -22,11 +22,16 @@ $(document).ready(function(){
     var img = document.getElementById('service_img');
     img.onload = function(){
         
-        var accordion = document.getElementById('collapseOne');
-        if (accordion.classList.contains("in")) {
-            var elem_child = accordion.childNodes[1];
+        var elements = document.getElementsByClassName('panel-collapse');
+        
+	    for (var i = 0; i < elements.length; i++) {
+
+	        var elem_child = elements[i].childNodes[1];
             elem_child.style.height = (img.height - 170)+"px";
-        }
-   
+	    }
+      
+            
+            
+       
 }
 });
