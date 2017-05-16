@@ -21,29 +21,44 @@ body{
     position: relative;
     
     }
-
-.top-menu{
+.navbar-default .navbar-collapse {
+    border-color: rgba(0,0,0,0);
+}
+.navbar-default {
+  margin-top: 30px;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+.nav_list{
     display: inline-block;
     margin: 40px auto;
-    line-height: 53px;
-    margin-left: -41px;
     text-align: center;
     list-style: none;
+    padding: 0;
  }
-.top-menu > li{
-    float:left;
+.nav_list > li{
+  display: inline-block;
 }
-.top-menu > li > a{
+.nav_link{
+    float:left;
     display: block;
-    padding: 6px 30px;
+    padding: 0 35px 10px 35px;
     text-transform: uppercase;
     font-size: 16px;
     color: rgb(255, 255, 255);
     font-family: "Gotham Rounded";
     letter-spacing: 3px;
 }
-.top-menu > li > a > .logo{
+.nav_link:hover, .nav_link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+.nav_list > .logo{
     margin-bottom: 20px;
+}
+.description {
+    margin-top: 150px;
 }
 .description > h1{
   font-size: 36px;
@@ -52,7 +67,6 @@ body{
   font-weight: bold;
   text-transform: uppercase;
   line-height: 30px;
-  margin-top: 210px;
   letter-spacing: 4px;
  }
 .description > h2{
@@ -140,6 +154,7 @@ p{
     padding-top: 100px;
     background-color: RGB(255,255,255);
 }
+
 .community{
     margin-top: 100px;
     width: 100%;
@@ -218,3 +233,54 @@ p{
     text-transform: uppercase;
     font-weight: bold;
 }
+@media screen and (max-width: 1200px) {
+    .nav_link {
+        padding: 0 20px 10px 20px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 0;
+    }
+    .nav_list {
+        margin: 0;
+        padding: 0;
+    }
+    .nav_list > li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .nav_link {
+        display: block;
+        margin: 0;
+        padding: 10px 5px 10px 5px;
+    }    
+    .description {
+        margin-top: 30px;
+    }
+    .description > h1{
+        font-size: 24px;
+    }
+    .description > h2{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .image {
+        margin: 10px auto 0 auto;
+    
+    }
+    .design .logo{
+        padding-bottom: 6px;
+        margin: 0 auto 0 auto;
+    }
+    .home, .design{
+        padding-top: 30px;
+    }
+    .community {
+        margin-top: 30px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+}    
