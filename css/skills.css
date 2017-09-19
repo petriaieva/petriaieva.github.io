@@ -3,3 +3,11 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 5, ../sass/skills.sass */
+  .skills_items {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

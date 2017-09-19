@@ -37,3 +37,21 @@ body {
   font-size: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 28, ../sass/main.sass */
+  body {
+    font-size: 14px;
+  }
+
+  /* line 30, ../sass/main.sass */
+  .heading_main {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  /* line 33, ../sass/main.sass */
+  .layout_main {
+    margin-bottom: 50px;
+  }
+}

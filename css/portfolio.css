@@ -27,3 +27,15 @@
 .portfolio_item:hover {
   opacity: 0.4;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 22, ../sass/portfolio.sass */
+  .portfolio_items {
+    margin: 20px 0;
+  }
+
+  /* line 24, ../sass/portfolio.sass */
+  .portfolio_item {
+    margin: 10px;
+  }
+}
