@@ -1,57 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Questrial");
 /* MAIN */
-/* line 3, ../sass/main.sass */
+/* line 8, ../sass/main.sass */
 body {
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-size: 18px;
-  regular: 400;
-  color: #646465;
-  margin-top: 40px;
+  color: rgba(41, 63, 80, 0.87);
   line-height: 1.5;
 }
 
-/* line 10, ../sass/main.sass */
+/* line 15, ../sass/main.sass */
+.slogan {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 25%;
+}
+
+/* line 22, ../sass/main.sass */
 .layout_main {
   background-color: white;
   margin-bottom: 100px;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 .heading_main {
-  margin-top: 100px;
-  font-family: "Frank Ruhl Libre", sans-serif;
-  font-size: 36px;
+  margin-top: 50px;
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
   regular: 400;
-  color: #212121;
-  text-transform: uppercase;
+  color: #293f50;
   text-align: center;
 }
 
-/* line 21, ../sass/main.sass */
+/* line 34, ../sass/main.sass */
 .aboutme {
   text-align: center;
   font-size: 24px;
+  color: #293f50;
 }
 
-/* line 24, ../sass/main.sass */
+/* line 39, ../sass/main.sass */
 .aboutme_min {
-  font-size: 16px;
   text-align: center;
 }
 
+/* line 44, ../sass/main.sass */
+.myphoto {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+/* line 51, ../sass/main.sass */
+.right {
+  text-align: right;
+}
+
+/* line 54, ../sass/main.sass */
+.words-wrapper {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* line 63, ../sass/main.sass */
+.new {
+  opacity: 0;
+}
+
+/* line 66, ../sass/main.sass */
+.div_opacity {
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -ms-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 28, ../sass/main.sass */
+  /* line 76, ../sass/main.sass */
   body {
     font-size: 14px;
   }
 
-  /* line 30, ../sass/main.sass */
+  /* line 78, ../sass/main.sass */
   .heading_main {
-    margin-top: 50px;
-    font-size: 24px;
+    margin-top: 25px;
+    font-size: 32px;
   }
 
-  /* line 33, ../sass/main.sass */
+  /* line 81, ../sass/main.sass */
+  .slogan {
+    font-size: 24px;
+    margin-top: 310px;
+    color: #293f50;
+  }
+
+  /* line 86, ../sass/main.sass */
+  .words-wrapper {
+    font-size: 24px;
+    color: #293f50;
+  }
+
+  /* line 90, ../sass/main.sass */
   .layout_main {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+  }
+
+  /* line 92, ../sass/main.sass */
+  .myphoto {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+  /* line 97, ../sass/main.sass */
+  .aboutme {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 101, ../sass/main.sass */
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 104, ../sass/main.sass */
+  #aboutme {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* line 108, ../sass/main.sass */
+  #aboutme {
+    padding-right: 320px;
+    padding-left: 320px;
   }
 }

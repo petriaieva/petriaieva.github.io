@@ -1,5 +1,6 @@
 "use strict";
 $(document).ready(function(){
+    var i;
     $('a[href^="#"]').bind('click.smoothscroll',function (e) {
      e.preventDefault();
 
@@ -12,4 +13,5 @@ $(document).ready(function(){
      window.location.hash = target;
      });
      });
+    
 });

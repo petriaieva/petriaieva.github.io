@@ -1,34 +1,111 @@
 /* MAIN */
+$color_white: rgb(255,255,255)
+$color-grey: rgb(41, 63, 80)
+$color-body: rgba(41, 63, 80,0.87)
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Questrial')
 
 body 
-  font-family: "Frank Ruhl Libre", sans-serif
+  font-family: 'Questrial', sans-serif
   font-size: 18px
-  regular: 400
-  color: #646465
-  margin-top: 40px
+  color: $color-body
   line-height: 1.5
+
+  
+.slogan
+  font-size: 48px
+  font-weight: bold
+  color: $color_white
+  text-align: center
+  margin-top: 25%
+    
 .layout_main 
   background-color: white
   margin-bottom: 100px
+
 .heading_main 
-  margin-top: 100px
-  font-family: "Frank Ruhl Libre", sans-serif
-  font-size: 36px
+  margin-top: 50px
+  font-family: 'Dancing Script', cursive
+  font-size: 48px
   regular: 400
-  color: #212121
-  text-transform: uppercase
+  color: $color-grey
   text-align: center
+  
 .aboutme 
   text-align: center
   font-size: 24px
+  color: $color-grey
+
 .aboutme_min 
-  font-size: 16px
+  
   text-align: center
+
+
+.myphoto
+  width: 200px
+  height: 300px
+  border-radius: 50%
+  margin-top: 100px
+  margin-left: 20px 
+
+.right
+  text-align: right
+
+.words-wrapper
+  font-size: 48px
+  font-weight: bold
+  color: $color_white
+  text-align: center
+
+#example
+  display:none
+
+.new
+  opacity: 0
+
+.div_opacity
+  -webkit-transition: opacity .1s ease-in-out
+  -moz-transition: opacity .1s ease-in-out
+  -ms-transition: opacity .1s ease-in-out
+  -o-transition: opacity .1s ease-in-out
+  transition: opacity .1s ease-in-out
+  opacity: 1
+
+  
 @media screen and (max-width: 768px)
   body
     font-size: 14px
   .heading_main 
-    margin-top: 50px
+    margin-top: 25px
+    font-size: 32px
+  .slogan
     font-size: 24px
+    margin-top: 310px
+    color: $color-grey
+    
+  .words-wrapper
+    font-size: 24px
+    color: $color-grey
+    
   .layout_main
-    margin-bottom: 50px
+    margin-bottom: 25px
+  .myphoto
+    width: 100px
+    height: 150px
+    border-radius: 50%
+    margin-top: 20px 
+  .aboutme 
+    font-size: 16px
+  
+@media screen and (max-width: 992px)
+  body
+    font-size: 16px   
+@media screen and (min-width: 1400px)
+  #aboutme
+    padding-right: 60px
+    padding-left: 60px
+@media screen and (min-width: 1920px)
+  #aboutme
+    padding-right: 320px
+    padding-left: 320px    
+    

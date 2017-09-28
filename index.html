@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Eugenia Petriaieva portfolio</title>
     
     <!-- STYLES -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link href="css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
                                             
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -18,84 +18,176 @@
     <script src='js/portfolio.js'></script>
  </head>
 <body>
-   
-    <!-- NAVIGATION -->
-<div id="js_nav" class="container-fluid nav">
-      <div class="row">    
-           <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
 
+        <!-- NAVIGATION -->
+    <div  class="container-fluid menu">
+       <div class = "row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <div class= "slogan">
+                In every project I put my heart! I build
                 </div>
-
-                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-                  <ul class="nav_list">
-                        <li><a class="nav_link" href="#aboutme">About Me</a></li>
-                        <li><a class="nav_link" href="#portfolio">Portfolio</a></li>
-                        <li><a class="nav_link" href="#iuse">I Use</a></li>
-                        <li><a class="nav_link" href="#skills">Skills</a></li>
-                        <li><a class="nav_link" href="#contact">Contact</a></li>
-                    </ul>
-                  </div>
-               </div>
+                <div id="example" class="words-wrapper"></div>
+            </div>
+        </div>
+        <div id="js_nav" class="navigation"> 
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo">
+                            Jane Petriaieva
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                        <ul class="nav_list">
+                            <li><a class="nav_link" href="#aboutme">About Me</a></li>
+                            <li><a class="nav_link" href="#portfolio">Portfolio</a></li>
+                            <li><a class="nav_link" href="#iuse">I Use</a></li>
+                            <li><a class="nav_link" href="#skills">Skills</a></li>
+                            <li><a class="nav_link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav> 
-    </div>
-</div>                
-     
-    <!-- ABOUT ME --> 
-    <div id="aboutme" class="container-fluid layout_main">
-      <div class="row">
-           <h2 class="heading_main">About me</h2>
-      </div>
+        </div>
         
-      <div class="row">
-          <p class="aboutme">Hello! My Name is Eugenia</p>
-          <p class="aboutme_min">I'am looking for a job as a Front-End Developer, PHP Developer, Web Developer</p>
-     </div>
-    </div>    
-     
-    <!-- PORTFOLIO -->
+        
+    </div>                
+
+        <!-- ABOUT ME --> 
+    <div id="aboutme" class="container-fluid layout_main">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-6 col-xs-12">
+                <div class="wrap_myphoto">
+                    <img class="myphoto" src="img/IMG_3360.jpg">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                <h2 class="heading_main">About me</h2>
+                <h2 class="aboutme">Hello! My Name is Jane.</h2>
+                <p class="aboutme_min">I'am looking for a Team, in which could perform the duties of the Front-end.
+                    <br>
+                    I have been working in this sphere of expertise for two years already. 
+                    <br>
+                    I think I can make a good contribution to Your Projects.
+                </p>
+                <h2 class="aboutme">“The only way to do great work is to love what you do”, -</h2>
+                <h2 class = "aboutme right">Steve Jobs</h2>
+            </div>
+        </div>
+    </div>   
+
+        <!-- PORTFOLIO -->
     <div id="portfolio" class="container-fluid layout_portfolio">
-       <div class="row">
-          <h2 class="heading_main">Portfolio</h2>
-           
-               <div class="portfolio_items">
-                <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12"> 
-                      <div class="portfolio_item">
+        <div class="row">
+            <h2 class="heading_main">Portfolio</h2>
+            <div class="portfolio_items">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 portfolio_image">
+                        <div class="portfolio_item">
                             <a href="Mogo/index.html">
-                             <img class="img-responsive" src="img/pr04.png" alt="">
+                                <img class="img-responsive" src="img/pr04.png" alt="">
                             </a>
-                       </div> 
-                       <div class="portfolio_item">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="portfolio_desc">
+                            <h3 class="portfolio_header">Website layout</h3>
+                            <div class="rectangle">
+                                <img src="img/Rectangle%202.png" alt="">
+                            </div>
+                            It is Website layout from a 
+                            <a href="https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/"> free one page PSD template</a>.
+                            <br>
+                            I used: HTML5 and CSS3 (Sass), Bootstrap, RWD.
+                            <br>
+                            The site was created for the portfolio.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="portfolio_desc">
+                            <h3 class="portfolio_header">Website layout, theme on Wordpress</h3>
+                            <div class="rectangle">
+                                <img src="img/Rectangle%202.png" alt="">
+                            </div>
+                            It is Website layout from a 
+                            <a href="http://freebiesbug.com/psd-freebies/phototime-psd-website-template/"> free one page PSD template</a> and creation of a theme on wordpress.
+                            <br>
+                            I used: HTML5 and CSS3 (Sass), Bootstrap, RWD, PHP.
+                            <br>
+                            Used plugings: Menu Image, Advanced Custom Fields.
+                            <br>
+                            The site is based on CMS Wordpress.
+                            <br>
+                            The site was created for the portfolio.
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 portfolio_image">
+                        <div class="portfolio_item">
                             <a href="Photoapp/index.html">
-                             <img class="img-responsive" src="img/pr03.png" alt="">
+                                <img class="img-responsive" src="img/pr03.png" alt="">
                             </a>
-                       </div>
-                   </div>
-                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">      
-                   <div class="portfolio_item">
-                        <a href="butterfly.html">
-                         <img class="img-responsive" src="img/pr01.png" alt="">
-                        </a>
-                   </div> 
-                   <div class="portfolio_item">
-                        <a href="shop.html">
-                             <img class="img-responsive" src="img/pr02.png" alt="">
-                       </a>
-                   </div> 
-                  
-               </div>
-           </div>
+                        </div>
+                    </div>
+                </div>       
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 portfolio_image">
+                        <div class="portfolio_item">
+                            <a href="SandySoul/index.html">
+                                <img class="img-responsive" src="img/pr01.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="portfolio_desc">
+                            <h3 class="portfolio_header">Website layout, theme on Wordpress</h3>
+                            <div class="rectangle">
+                                <img src="img/Rectangle%202.png" alt="">
+                            </div>
+                            It is Website layout from a template of a photoshop and creation of a theme on wordpress.
+                            <br>
+                            I used: HTML5 and CSS3 (Sass), Bootstrap, RWD, PHP.
+                            <br>
+                            Used plugings: Contact Form 7, Advanced Custom Fields, Gmail SMTP.
+                            <br>
+                            The site is based on CMS Wordpress.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="portfolio_desc">
+                            <h3 class="portfolio_header">Wordpress</h3>
+                            <div class="rectangle">
+                                <img src="img/Rectangle%202.png" alt="">
+                            </div>
+                            It is a one-page website building on wordpress theme 
+                            <a href="https://www.themely.com/themes/integral/">integral</a>.
+                            <br>
+                            Used plugings: Contact Form 7, Redux Framework, Theme Demo Import, WP-Mail-SMTP.
+                            <br>
+                            The site is based on CMS Wordpress.
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 portfolio_image">
+                        <div class="portfolio_item">
+                            <img class="img-responsive" src="img/pr02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <!-- I USE -->
+
+        <!-- I USE -->
     <div id="iuse" class="container-fluid layout_main">
        <div class="row">
           <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
@@ -115,55 +207,54 @@
            </div>   
         </div>
     </div>
-    
-    <!-- SKILLS -->
+
+        <!-- SKILLS -->
     <div id="skills" class="container-fluid layout_portfolio">
       <div class="row">
       <h2 class="heading_main">Skills</h2>
        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
-          
-              <ul class="skills_items">
-                  <li >Very good knowledge of HTML5 and CSS3</li>
-                  <li >Good knowledge of PHP</li>
-                  <li >Good knowledge of MySQL</li>
-                  <li >Experience in using CSS preprocessor Sass</li>
-                  <li >Experience in working with responsive web design</li>
-                  <li >Knowledge of Adobe Photoshop</li>
-                  <li >Knowledge of Bootstrap CSS framework</li>
-                  <li >Work with version control systems (GIT)</li>
-                  <li >Basic knowledge of JavaScript and jQuery library</li>
-                  <li >Knowledge of Wordpress</li>
+          <ul class="skills_items">
+              <li >Experience with HTML5 and CSS3</li>
+              <li >Experience with PHP</li>
+              <li >Experience with MySQL</li>
+              <li >Experience in using CSS preprocessor Sass</li>
+              <li >Experience in working with responsive web design (Bootstrap framework)</li>
+              <li >Experience with Adobe Photoshop - cut the layouts for HTML</li>
+              <li >Experience with version control systems (GIT)</li>
+              <li >Good knowledge of JavaScript and jQuery library</li>
+              <li >Experience with CMS Wordpress</li>
               </ul> 
         </div>
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
           <div class= "skills_items">
            <a  href="https://www.freecodecamp.org/petriaieva/front-end-certification">
-            <img class="img-responsive" src="img/certify.png" alt=""/>
+               <div class="wrap_myphoto">
+                    <img class="img-responsive sertificate" src="img/certify.png" alt=""/>
+                </div>
             </a>
           </div>
         </div>
       </div>    
     </div>                                                                               
-    
-    <!-- CONTACT -->                                                                     <div id="contact" class="container-fluid layout_main">
+
+        <!-- CONTACT -->
+     <div id="contact" class="container-fluid layout_main">
       <div class="row">
             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 contact_glyphicon">
-               <span class="glyphicon glyphicon-envelope " aria-hidden="true"></span>
-                <h2 class="heading_contact"><span>Contact me</span></h2>
+                <h2 class="heading_main">Contact me</h2>
                 <div class="widget widget-contact contact">
                  <p>
-                     <a href="tel:+48536490106"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +48 536 490 106</a>
+                     <a href="tel:+48536490106"><span class="glyphicon glyphicon-earphone icon" aria-hidden="true"></span> +48 536 490 106</a>
                  </p>
                  <p>
-                     <a href="mailto:pevgeniya20@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> pevgeniya20@gmail.com</a> 
+                     <a href="mailto:pevgeniya20@gmail.com"><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span> pevgeniya20@gmail.com</a> 
                  </p>  
-                 
                 </div>
              </div>     
         </div>  
     </div>
-    
-    <!-- FOOTER -->
+
+        <!-- FOOTER -->
     <footer class="footer">
        <div class="footer_social">
            <a href="https://www.facebook.com/eugeniapetriaieva" class="footer_social_item"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -171,11 +262,11 @@
           <a href="https://github.com/petriaieva" class="footer_social_item"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
         <div class="footer_copy">
-            <p class="footer_copy_text">&copy;	2017 Eugenia Petriaieva</p>
+            <p class="footer_copy_text">&copy;	2017 Jane Petriaieva</p>
         </div>
     </footer>
-    
-    <!-- Analitycs -->
+
+        <!-- Analitycs -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -186,5 +277,5 @@
       ga('send', 'pageview');
 
     </script>
-</body>
+    </body>
 </html>

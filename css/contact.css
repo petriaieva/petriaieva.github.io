@@ -1,44 +1,55 @@
-/* line 2, ../sass/contact.sass */
+/* line 5, ../sass/contact.sass */
 .contact {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-/* line 7, ../sass/contact.sass */
+/* line 10, ../sass/contact.sass */
 .contact_glyphicon {
   text-align: center;
-  margin-top: 100px;
   font-size: 24px;
 }
 
-/* line 12, ../sass/contact.sass */
-.heading_contact {
-  font-family: "Frank Ruhl Libre", sans-serif;
-  font-size: 36px;
-  regular: 400;
-  color: #212121;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/* line 18, ../sass/contact.sass */
+/* line 15, ../sass/contact.sass */
 .contact p a {
   font-size: 24px;
-  color: #646465;
+  color: rgba(41, 63, 80, 0.87);
   text-decoration: none;
 }
 
-/* line 23, ../sass/contact.sass */
+/* line 20, ../sass/contact.sass */
 .contact p a:hover {
-  color: #212121;
+  color: #293f50;
   text-decoration: none;
+}
+
+/* line 24, ../sass/contact.sass */
+.icon {
+  background-color: #293f50;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  padding-top: 7px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 28, ../sass/contact.sass */
+  /* line 34, ../sass/contact.sass */
   .contact_glyphicon {
     margin-top: 50px;
     font-size: 18px;
+  }
+
+  /* line 37, ../sass/contact.sass */
+  .contact p a {
+    font-size: 16px;
+  }
+
+  /* line 39, ../sass/contact.sass */
+  .icon {
+    width: 30px;
+    height: 30px;
   }
 }

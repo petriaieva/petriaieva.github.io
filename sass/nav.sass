@@ -1,26 +1,41 @@
 /* NAVBAR */
+$navbar-bg-color-grey: rgba(41, 63, 80,0.8)
+$navbar-bg-color-white: rgba(255, 255, 255, 0)
+$navbar-link-color: rgb(255, 255, 255)
+$color_white: rgb(255, 255, 255)
+$color-grey: rgb(41, 63, 80)
 
-$navbar-bg-color: #0884ba
-$navbar-link-color: #faf9f9
-$navbar-link-hover: #b0b0b0
-
-.nav
-  position: fixed
+.menu
+  position: relative
   width: 100%
-  top: 0
+  background: -moz-linear-gradient(top, $navbar-bg-color-grey 0%, $navbar-bg-color-white 100%), url(../img/main_bg.jpg) no-repeat /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$navbar-bg-color-grey), color-stop(100%,$navbar-bg-color-white)), url(../img/main_bg.jpg) no-repeat/* Chrome,Safari4+ */ 
+  background: -webkit-linear-gradient(top, $navbar-bg-color-grey 0%,$color_white 100%), url(../img/main_bg.jpg) no-repeat /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $navbar-bg-color-grey 0%,$color_white 100%), url(../img/main_bg.jpg) no-repeat /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $navbar-bg-color-grey 0%,$color_white 100%), url(../img/main_bg.jpg) no-repeat /* IE10+ */
+  background: linear-gradient(to bottom, $navbar-bg-color-grey 0%,$color_white 100%), url(../img/main_bg.jpg) no-repeat /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#293f50', endColorstr='#ffffff',GradientType=0 ), url(../img/main_bg.jpg) no-repeat /* IE6-9 */
   z-index: 100
-  padding: 16px 5px
-  background-color: $navbar-bg-color
-  transition: all 0.5s
-  text-align: center
+  height: 1000px
+  background-size: cover
+  padding-left: 0px
+  padding-right: 0px
 
 .navbar-default
-  background-color: $navbar-bg-color
-  border-color: $navbar-bg-color
+  text-align: right
+  background: none
+  border: none
 
-.nav_scrolled
-  padding: 0px 5px
-  opacity: 0.8
+.navigation
+  position: fixed
+  top: 0
+  width: 100%
+  color: $color_white
+  padding-right: 30px
+
+.navigation_scrolled
+  opacity: 0.8    
+  background: $color-grey
 
 .nav_list
   padding: 0
@@ -37,16 +52,24 @@ $navbar-link-hover: #b0b0b0
   color: $navbar-link-color
 
 .nav_link:hover
-  text-decoration: none
-  color: $navbar-link-hover
+  text-decoration: underline
+  color: $navbar-link-color
+.logo
+  font-family: 'Dancing Script', cursive
+  font-size: 48px
+  font-weight: bold
+  padding-left: 20px
 
-@media screen and (max-width: 767px)
-  .nav
+@media screen and (max-width: 768px)
+  .menu
     padding: 0
+    height: 300px
+    width: 100%
     
   .nav_list
     margin: 0
     padding: 0
+    text-align: center
 
   .nav_list li
     display: block
@@ -57,10 +80,18 @@ $navbar-link-hover: #b0b0b0
     display: block
     margin: 0
     padding: 5px 5px 5px 5px
-    
-  .navbar-default    
-    .navbar-toggle:hover 
-      background-color: $navbar-bg-color
   .navbar-default
-    .navbar-toggle:focus
-      background-color: $navbar-bg-color   
+    text-align: left
+  .logo
+    font-size: 24px
+    margin-top: 10px    
+@media screen and (min-width: 1400px)
+  .navigation
+    padding-right: 60px
+  .logo    
+    padding-left: 60px
+@media screen and (min-width: 1920px)
+  .navigation
+    padding-right: 320px
+  .logo    
+    padding-left: 320px    

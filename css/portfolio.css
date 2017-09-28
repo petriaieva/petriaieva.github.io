@@ -1,41 +1,89 @@
-/* line 1, ../sass/portfolio.sass */
+/* line 4, ../sass/portfolio.sass */
 .layout_portfolio {
   background-color: #f0f0f0;
 }
 
-/* line 4, ../sass/portfolio.sass */
+/* line 7, ../sass/portfolio.sass */
 .portfolio_items {
   display: block;
   margin: 60px 0;
   text-align: center;
 }
 
-/* line 9, ../sass/portfolio.sass */
+/* line 12, ../sass/portfolio.sass */
 .portfolio_item {
   position: relative;
-  display: inline-block;
-  margin: 20px;
 }
 
-/* line 14, ../sass/portfolio.sass */
-.portfolio_item img {
-  width: 100%;
-  height: 100%;
+/* line 15, ../sass/portfolio.sass */
+.portfolio_desc {
+  margin-top: 60px;
 }
 
 /* line 18, ../sass/portfolio.sass */
+.portfolio_image {
+  padding: 0;
+}
+
+/* line 21, ../sass/portfolio.sass */
 .portfolio_item:hover {
   opacity: 0.4;
 }
 
+/* line 23, ../sass/portfolio.sass */
+.portfolio_header {
+  color: #000041;
+  margin-bottom: 0px;
+}
+
+/* line 26, ../sass/portfolio.sass */
+.rectangle {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 22, ../sass/portfolio.sass */
+  /* line 31, ../sass/portfolio.sass */
   .portfolio_items {
     margin: 20px 0;
   }
 
-  /* line 24, ../sass/portfolio.sass */
+  /* line 33, ../sass/portfolio.sass */
   .portfolio_item {
     margin: 10px;
+  }
+
+  /* line 35, ../sass/portfolio.sass */
+  .portfolio_desc {
+    margin-top: 25px;
+  }
+
+  /* line 37, ../sass/portfolio.sass */
+  .portfolio_header {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 41, ../sass/portfolio.sass */
+  .portfolio_item {
+    margin: 10px;
+  }
+
+  /* line 43, ../sass/portfolio.sass */
+  .portfolio_desc {
+    margin-top: 25px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 46, ../sass/portfolio.sass */
+  #portfolio {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* line 50, ../sass/portfolio.sass */
+  #portfolio {
+    padding-right: 320px;
+    padding-left: 320px;
   }
 }

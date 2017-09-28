@@ -1,0 +1,492 @@
+/* BEM */
+/* block-name--element-name__modifier */
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  src: url("../fonts/brandon-grotesque-regular.otf");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque medium";
+  src: url("../fonts/brandon-grotesque-medium.otf");
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: url("../fonts/Noe_Display_Medium.woff");
+}
+
+/* line 3, ../sass/header.sass */
+.header {
+  background: white;
+  margin: 55px 75px 0 75px;
+}
+
+/* line 6, ../sass/header.sass */
+.image_title_left {
+  margin-left: 10px;
+}
+
+/* line 9, ../sass/header.sass */
+.header_image {
+  margin: 0 75px 0 75px;
+}
+/* line 12, ../sass/header.sass */
+.header_image .image_title_header {
+  position: relative;
+}
+/* line 15, ../sass/header.sass */
+.header_image .image_title_header .inner {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 40%;
+  right: 0;
+  z-index: 2;
+}
+/* line 22, ../sass/header.sass */
+.header_image .image_title_header .inner_text_header {
+  font-family: "NoeDisplay";
+  text-decoration: underline;
+  font-size: 36px;
+  color: white;
+}
+
+/* line 27, ../sass/header.sass */
+.menu {
+  margin-bottom: 10px;
+}
+
+/* line 29, ../sass/header.sass */
+.title {
+  font-family: "Brandon Grotesque Regular";
+  text-transform: uppercase;
+  font-size: 25px;
+  color: black;
+}
+
+/* line 34, ../sass/header.sass */
+.inner-text {
+  font-family: "NoeDisplay";
+  text-decoration: underline;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 42, ../sass/header.sass */
+  .header {
+    margin: 25px 0 0 25px;
+  }
+
+  /* line 44, ../sass/header.sass */
+  .header_image {
+    margin: 0 25px 0 25px;
+  }
+  /* line 48, ../sass/header.sass */
+  .header_image .image_title_header .inner_text_header {
+    font-size: 22px;
+  }
+}
+/* line 2, ../sass/nav.sass */
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  transition: all 0.5s;
+  text-align: left;
+}
+
+/* line 10, ../sass/nav.sass */
+.navbar-default {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+/* line 14, ../sass/nav.sass */
+.navbar-default .container-fluid {
+  padding-left: 0;
+}
+
+/* line 16, ../sass/nav.sass */
+.navbar-brand {
+  padding-left: 0;
+}
+
+/* line 18, ../sass/nav.sass */
+.navbar-collapse {
+  padding-left: 0;
+}
+
+/* line 20, ../sass/nav.sass */
+.nav_list {
+  padding: 0;
+}
+
+/* line 22, ../sass/nav.sass */
+.nav_list li {
+  display: inline-block;
+}
+
+/* line 24, ../sass/nav.sass */
+.nav_link {
+  font-family: "Brandon Grotesque Regular";
+  text-transform: uppercase;
+  padding-right: 50px;
+  font-size: 12px;
+  color: black;
+}
+
+/* line 30, ../sass/nav.sass */
+.nav_link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 35, ../sass/nav.sass */
+  .nav {
+    padding: 0;
+  }
+
+  /* line 38, ../sass/nav.sass */
+  .nav_list {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 42, ../sass/nav.sass */
+  .nav_list li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 47, ../sass/nav.sass */
+  .nav_link {
+    display: block;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+  }
+
+  /* line 53, ../sass/nav.sass */
+  .navbar-brand {
+    padding-left: 40px;
+  }
+
+  /* line 56, ../sass/nav.sass */
+  .navbar-default .navbar-toggle {
+    border-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  /* line 59, ../sass/nav.sass */
+  .navbar-default .navbar-toggle .icon-bar {
+    color: black;
+    border-color: black;
+    background-color: black;
+  }
+  /* line 64, ../sass/nav.sass */
+  .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  /* line 66, ../sass/nav.sass */
+  .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+/* line 5, ../sass/front-page.sass */
+.right {
+  text-align: right;
+}
+
+/* line 7, ../sass/front-page.sass */
+.left {
+  text-align: left;
+}
+
+/* line 9, ../sass/front-page.sass */
+h3 {
+  font-family: "Brandon Grotesque Regular";
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #e9d7c1;
+  letter-spacing: 4px;
+}
+
+/* line 15, ../sass/front-page.sass */
+.image_title {
+  margin-bottom: 160px;
+}
+/* line 17, ../sass/front-page.sass */
+.image_title .left_90 {
+  margin-left: 80px;
+}
+/* line 20, ../sass/front-page.sass */
+.image_title .inner-text {
+  color: black;
+  margin-left: -90px;
+  margin-top: 60%;
+}
+
+/* line 25, ../sass/front-page.sass */
+.inner-text-right {
+  color: black;
+  font-family: "NoeDisplay";
+  text-decoration: underline;
+  font-size: 36px;
+  margin-top: 60%;
+  margin-right: -90px;
+  text-align: right;
+  z-index: 3;
+  position: relative;
+}
+
+/* line 36, ../sass/front-page.sass */
+.content {
+  font-family: "NoeDisplay";
+  font-size: 24px;
+  margin: 240px 100px 240px 100px;
+  text-align: center;
+  line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 44, ../sass/front-page.sass */
+  .content {
+    font-size: 14px;
+    margin: 90px 0 90px 0;
+    line-height: 1;
+  }
+
+  /* line 48, ../sass/front-page.sass */
+  h3 {
+    font-size: 7px;
+    margin: 5px 0 5px 0;
+  }
+  /* line 52, ../sass/front-page.sass */
+  h3 h5 {
+    margin-top: 20px;
+  }
+
+  /* line 54, ../sass/front-page.sass */
+  .image_title {
+    margin-bottom: 25px;
+  }
+  /* line 56, ../sass/front-page.sass */
+  .image_title .left_90 {
+    margin-left: 55px;
+  }
+  /* line 59, ../sass/front-page.sass */
+  .image_title .inner-text {
+    font-size: 22px;
+  }
+
+  /* line 61, ../sass/front-page.sass */
+  .inner-text-right {
+    font-size: 22px;
+  }
+}
+/* line 1, ../sass/footer.sass */
+.instagram {
+  margin-top: 130px;
+}
+
+/* line 5, ../sass/footer.sass */
+.footer_copy {
+  margin-top: 160px;
+  font-family: "Brandon Grotesque Medium";
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+/* line 12, ../sass/footer.sass */
+.footer_copy_text {
+  margin-bottom: 30px;
+}
+
+/* line 14, ../sass/footer.sass */
+.footer_link {
+  color: black;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/footer.sass */
+.footer_link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 23, ../sass/footer.sass */
+  .instagram {
+    margin-top: 55px;
+  }
+
+  /* line 25, ../sass/footer.sass */
+  .footer_copy {
+    margin-top: 55px;
+  }
+
+  /* line 27, ../sass/footer.sass */
+  .footer_copy_text {
+    margin-bottom: 20px;
+  }
+
+  /* line 29, ../sass/footer.sass */
+  .footer_link {
+    padding-bottom: 25px;
+  }
+}
+/* line 3, ../sass/single.sass */
+.single {
+  background: white;
+}
+
+/* line 6, ../sass/single.sass */
+.vertical {
+  position: absolute;
+  right: -75px;
+  bottom: 80px;
+}
+
+/* line 10, ../sass/single.sass */
+.vertical-text {
+  /* FF3.5+ */
+  -moz-transform: rotate(-90deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90deg);
+  /* IE6,IE7 */
+  filter: "progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* Standard */
+  transform: rotate(-90deg);
+}
+
+/* line 23, ../sass/single.sass */
+h1 {
+  font-family: "NoeDisplay";
+  color: black;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+/* line 29, ../sass/single.sass */
+.page-content {
+  font-family: "Brandon Grotesque Regular";
+  font-size: 16px;
+}
+
+/* line 33, ../sass/single.sass */
+.page-content-grey {
+  color: darkgrey;
+}
+
+/* line 35, ../sass/single.sass */
+.image-single {
+  margin-top: 75px;
+}
+
+/* line 37, ../sass/single.sass */
+.caption-single {
+  margin: 75px 55px 0 55px;
+}
+
+/* line 39, ../sass/single.sass */
+h6 {
+  margin-top: 70px;
+  font-family: "Brandon Grotesque Regular";
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* line 49, ../sass/single.sass */
+.tips {
+  opacity: 0.7;
+}
+
+/* line 51, ../sass/single.sass */
+.tips_title {
+  padding-top: 35px;
+}
+
+/* line 54, ../sass/single.sass */
+.inner-text-right-small {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 80%;
+  margin-right: -115px;
+}
+
+/* line 59, ../sass/single.sass */
+.image_tips {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 63, ../sass/single.sass */
+  h1 {
+    font-size: 22px;
+  }
+
+  /* line 65, ../sass/single.sass */
+  .image-single {
+    margin-top: 45px;
+  }
+
+  /* line 67, ../sass/single.sass */
+  .tips_title {
+    padding-top: 0;
+  }
+
+  /* line 69, ../sass/single.sass */
+  .page-content {
+    font-size: 12px;
+  }
+
+  /* line 71, ../sass/single.sass */
+  .vertical {
+    right: -65px;
+    bottom: 60px;
+  }
+}
+/* line 1, ../sass/about.sass */
+.about {
+  margin-top: 165px;
+  margin-bottom: 215px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 5, ../sass/about.sass */
+  .about {
+    margin-top: 95px;
+    margin-bottom: 95px;
+  }
+}
+/* line 1, ../sass/contact.sass */
+.low_case {
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+/* line 4, ../sass/contact.sass */
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 7, ../sass/contact.sass */
+  .low_case {
+    font-size: 12px;
+  }
+}

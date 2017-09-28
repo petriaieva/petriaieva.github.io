@@ -1,4 +1,7 @@
 @import 'variables'
+$color-grey: rgb(41, 63, 80)
+$color-body: rgba(41, 63, 80,0.87)
+$color_white: rgb(255,255,255)
 .contact
   text-align: center
   margin-top: 50px
@@ -6,25 +9,33 @@
 
 .contact_glyphicon
   text-align: center
-  margin-top: 100px
-  font-size: 24px
-
-.heading_contact
-  @include font-heading
-  text-transform: uppercase
-  text-align:  center
   
+  font-size: 24px
 
 .contact p a
   font-size: 24px
-  color: #646465
+  color: $color-body
   text-decoration: none
 
 .contact p a:hover
-  color: #212121
+  color: $color-grey
   text-decoration: none
+
+.icon
+  background-color: $color-grey
+  color: $color_white
+  border-radius: 50%
+  width: 40px
+  height: 40px
+  margin-right: 20px
+  padding-top: 7px
 
 @media screen and (max-width: 768px)
   .contact_glyphicon
     margin-top: 50px
     font-size: 18px
+  .contact p a
+    font-size: 16px
+  .icon
+    width: 30px
+    height: 30px
