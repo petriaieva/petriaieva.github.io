@@ -2,7 +2,7 @@
 /* BEM */
 /* block-name--element-name__modifier */
 /* MAIN */
-/* line 8, ../sass/main.sass */
+/* line 8, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 body {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
 }
 
-/* line 15, ../sass/main.sass */
+/* line 15, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .slogan {
   font-size: 48px;
   font-weight: bold;
@@ -19,15 +19,15 @@ body {
   margin-top: 25%;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 22, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .layout_main {
   background-color: white;
   margin-bottom: 100px;
 }
 
-/* line 26, ../sass/main.sass */
+/* line 26, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .heading_main {
-  margin-top: 50px;
+  margin-top: 100px;
   font-family: "Dancing Script", cursive;
   font-size: 48px;
   regular: 400;
@@ -35,19 +35,19 @@ body {
   text-align: center;
 }
 
-/* line 34, ../sass/main.sass */
+/* line 34, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .aboutme {
   text-align: center;
   font-size: 24px;
   color: #293f50;
 }
 
-/* line 39, ../sass/main.sass */
+/* line 39, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .aboutme_min {
   text-align: center;
 }
 
-/* line 44, ../sass/main.sass */
+/* line 44, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .myphoto {
   width: 200px;
   height: 300px;
@@ -56,12 +56,12 @@ body {
   margin-left: 20px;
 }
 
-/* line 51, ../sass/main.sass */
+/* line 51, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .right {
   text-align: right;
 }
 
-/* line 54, ../sass/main.sass */
+/* line 54, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .words-wrapper {
   font-size: 48px;
   font-weight: bold;
@@ -69,12 +69,12 @@ body {
   text-align: center;
 }
 
-/* line 63, ../sass/main.sass */
+/* line 63, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .new {
   opacity: 0;
 }
 
-/* line 66, ../sass/main.sass */
+/* line 66, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
 .div_opacity {
   -webkit-transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
@@ -85,36 +85,36 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 76, ../sass/main.sass */
+  /* line 76, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   body {
     font-size: 14px;
   }
 
-  /* line 78, ../sass/main.sass */
+  /* line 78, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .heading_main {
     margin-top: 25px;
     font-size: 32px;
   }
 
-  /* line 81, ../sass/main.sass */
+  /* line 81, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .slogan {
     font-size: 24px;
     margin-top: 310px;
     color: #293f50;
   }
 
-  /* line 86, ../sass/main.sass */
+  /* line 86, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .words-wrapper {
     font-size: 24px;
     color: #293f50;
   }
 
-  /* line 90, ../sass/main.sass */
+  /* line 90, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .layout_main {
     margin-bottom: 25px;
   }
 
-  /* line 92, ../sass/main.sass */
+  /* line 92, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .myphoto {
     width: 100px;
     height: 150px;
@@ -122,33 +122,33 @@ body {
     margin-top: 20px;
   }
 
-  /* line 97, ../sass/main.sass */
+  /* line 97, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   .aboutme {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 101, ../sass/main.sass */
+  /* line 101, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   body {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 104, ../sass/main.sass */
+  /* line 104, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   #aboutme {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 108, ../sass/main.sass */
+  /* line 108, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/main.sass */
   #aboutme {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
 /* NAVBAR */
-/* line 8, ../sass/nav.sass */
+/* line 8, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .menu {
   position: relative;
   width: 100%;
@@ -166,14 +166,14 @@ body {
   padding-right: 0px;
 }
 
-/* line 24, ../sass/nav.sass */
+/* line 24, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .navbar-default {
   text-align: right;
   background: none;
   border: none;
 }
 
-/* line 29, ../sass/nav.sass */
+/* line 29, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .navigation {
   position: fixed;
   top: 0;
@@ -182,24 +182,24 @@ body {
   padding-right: 30px;
 }
 
-/* line 36, ../sass/nav.sass */
+/* line 36, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .navigation_scrolled {
   opacity: 0.8;
   background: #293f50;
 }
 
-/* line 40, ../sass/nav.sass */
+/* line 40, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .nav_list {
   padding: 0;
   margin: 16px 0;
 }
 
-/* line 44, ../sass/nav.sass */
+/* line 44, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .nav_list li {
   display: inline-block;
 }
 
-/* line 47, ../sass/nav.sass */
+/* line 47, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .nav_link {
   text-decoration: none;
   margin-left: 20px;
@@ -208,13 +208,13 @@ body {
   color: white;
 }
 
-/* line 54, ../sass/nav.sass */
+/* line 54, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .nav_link:hover {
   text-decoration: underline;
   color: white;
 }
 
-/* line 57, ../sass/nav.sass */
+/* line 57, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
 .logo {
   font-family: "Dancing Script", cursive;
   font-size: 48px;
@@ -223,163 +223,163 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 64, ../sass/nav.sass */
+  /* line 64, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .menu {
     padding: 0;
     height: 300px;
     width: 100%;
   }
 
-  /* line 69, ../sass/nav.sass */
+  /* line 69, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .nav_list {
     margin: 0;
     padding: 0;
     text-align: center;
   }
 
-  /* line 74, ../sass/nav.sass */
+  /* line 74, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .nav_list li {
     display: block;
     margin: 0;
     padding: 0;
   }
 
-  /* line 79, ../sass/nav.sass */
+  /* line 79, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .nav_link {
     display: block;
     margin: 0;
     padding: 5px 5px 5px 5px;
   }
 
-  /* line 83, ../sass/nav.sass */
+  /* line 83, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .navbar-default {
     text-align: left;
   }
 
-  /* line 85, ../sass/nav.sass */
+  /* line 85, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .logo {
     font-size: 24px;
     margin-top: 10px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 89, ../sass/nav.sass */
+  /* line 89, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .navigation {
     padding-right: 60px;
   }
 
-  /* line 91, ../sass/nav.sass */
+  /* line 91, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .logo {
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 94, ../sass/nav.sass */
+  /* line 94, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .navigation {
     padding-right: 320px;
   }
 
-  /* line 96, ../sass/nav.sass */
+  /* line 96, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/nav.sass */
   .logo {
     padding-left: 320px;
   }
 }
-/* line 4, ../sass/portfolio.sass */
+/* line 4, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .layout_portfolio {
   background-color: #f0f0f0;
 }
 
-/* line 7, ../sass/portfolio.sass */
+/* line 7, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_items {
   display: block;
   margin: 60px 0;
   text-align: center;
 }
 
-/* line 12, ../sass/portfolio.sass */
+/* line 12, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_item {
   position: relative;
 }
 
-/* line 15, ../sass/portfolio.sass */
+/* line 15, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_desc {
   margin-top: 60px;
 }
 
-/* line 18, ../sass/portfolio.sass */
+/* line 18, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_image {
   padding: 0;
 }
 
-/* line 21, ../sass/portfolio.sass */
+/* line 21, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_item:hover {
   opacity: 0.4;
 }
 
-/* line 23, ../sass/portfolio.sass */
+/* line 23, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .portfolio_header {
   color: #000041;
   margin-bottom: 0px;
 }
 
-/* line 26, ../sass/portfolio.sass */
+/* line 26, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
 .rectangle {
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 31, ../sass/portfolio.sass */
+  /* line 31, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_items {
     margin: 20px 0;
   }
 
-  /* line 33, ../sass/portfolio.sass */
+  /* line 33, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_item {
     margin: 10px;
   }
 
-  /* line 35, ../sass/portfolio.sass */
+  /* line 35, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_desc {
     margin-top: 25px;
   }
 
-  /* line 37, ../sass/portfolio.sass */
+  /* line 37, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_header {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 41, ../sass/portfolio.sass */
+  /* line 41, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_item {
     margin: 10px;
   }
 
-  /* line 43, ../sass/portfolio.sass */
+  /* line 43, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   .portfolio_desc {
     margin-top: 25px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 46, ../sass/portfolio.sass */
+  /* line 46, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   #portfolio {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 50, ../sass/portfolio.sass */
+  /* line 50, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/portfolio.sass */
   #portfolio {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
-/* line 1, ../sass/iuse.sass */
+/* line 1, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/iuse.sass */
 .iuse_images {
   margin-top: 30px;
   text-align: center;
 }
 
-/* line 5, ../sass/iuse.sass */
+/* line 5, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/iuse.sass */
 .iuse_images img {
   display: inline-block;
   max-height: 55px;
@@ -388,75 +388,75 @@ body {
   filter: grayscale(100%);
 }
 
-/* line 12, ../sass/iuse.sass */
+/* line 12, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/iuse.sass */
 .iuse_images img:hover {
   filter: grayscale(0%);
 }
 
-/* line 1, ../sass/skills.sass */
+/* line 1, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
 .skills_items {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 4, ../sass/skills.sass */
+/* line 4, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
 .wrap_myphoto {
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 8, ../sass/skills.sass */
+  /* line 8, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
   .skills_items {
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  /* line 11, ../sass/skills.sass */
+  /* line 11, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
   .sertificate {
     display: inline;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 14, ../sass/skills.sass */
+  /* line 14, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
   #skills {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 18, ../sass/skills.sass */
+  /* line 18, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/skills.sass */
   #skills {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
-/* line 5, ../sass/contact.sass */
+/* line 5, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
 .contact {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-/* line 10, ../sass/contact.sass */
+/* line 10, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
 .contact_glyphicon {
   text-align: center;
   font-size: 24px;
 }
 
-/* line 15, ../sass/contact.sass */
+/* line 15, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
 .contact p a {
   font-size: 24px;
   color: rgba(41, 63, 80, 0.87);
   text-decoration: none;
 }
 
-/* line 20, ../sass/contact.sass */
+/* line 20, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
 .contact p a:hover {
   color: #293f50;
   text-decoration: none;
 }
 
-/* line 24, ../sass/contact.sass */
+/* line 24, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
 .icon {
   background-color: #293f50;
   color: white;
@@ -468,65 +468,65 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 34, ../sass/contact.sass */
+  /* line 34, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
   .contact_glyphicon {
     margin-top: 50px;
     font-size: 18px;
   }
 
-  /* line 37, ../sass/contact.sass */
+  /* line 37, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
   .contact p a {
     font-size: 16px;
   }
 
-  /* line 39, ../sass/contact.sass */
+  /* line 39, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/contact.sass */
   .icon {
     width: 30px;
     height: 30px;
   }
 }
-/* line 4, ../sass/footer.sass */
+/* line 4, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/footer.sass */
 .footer {
   background-color: #293f50;
   text-align: center;
   padding: 20px 20px;
 }
 
-/* line 9, ../sass/footer.sass */
+/* line 9, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/footer.sass */
 .footer_copy {
   font-size: 12px;
   color: #faf9f9;
 }
 
-/* line 13, ../sass/footer.sass */
+/* line 13, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/footer.sass */
 .footer_copy_text {
   margin: 0;
   margin-top: 10px;
 }
 
-/* line 17, ../sass/footer.sass */
+/* line 17, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/footer.sass */
 .footer_social {
   padding: 0px;
 }
 
-/* line 20, ../sass/footer.sass */
+/* line 20, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/footer.sass */
 .footer_social_item {
   padding: 10px;
   color: white;
 }
 
-/* line 3, ../sass/butterfly.sass */
+/* line 3, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 layout_butterfly {
   background-color: #fafafa;
 }
 
-/* line 6, ../sass/butterfly.sass */
+/* line 6, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .description {
   text-align: center;
   font-size: 20px;
 }
 
-/* line 10, ../sass/butterfly.sass */
+/* line 10, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .heading_main_butterfly {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-size: 36px;
@@ -538,38 +538,38 @@ layout_butterfly {
   font-size: 24px;
 }
 
-/* line 17, ../sass/butterfly.sass */
+/* line 17, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .nav_list_butterfly {
   padding: 0;
   margin: 20px 0;
 }
 
-/* line 21, ../sass/butterfly.sass */
+/* line 21, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .nav_ul_butterfly {
   padding: 0;
   text-align: center;
 }
 
-/* line 25, ../sass/butterfly.sass */
+/* line 25, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .nav_item_butterfly {
   padding: 0 10px;
   display: inline-block;
 }
 
-/* line 29, ../sass/butterfly.sass */
+/* line 29, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .nav_link_butterfly {
   font-size: 16px;
   color: #646465;
   text-decoration: none;
 }
 
-/* line 34, ../sass/butterfly.sass */
+/* line 34, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .nav_link_butterfly:hover {
   color: #212121;
   text-decoration: none;
 }
 
-/* line 38, ../sass/butterfly.sass */
+/* line 38, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .hr {
   width: 100%;
   margin: 5px 0 0 0;
@@ -577,7 +577,7 @@ layout_butterfly {
   border-bottom: 0;
 }
 
-/* line 44, ../sass/butterfly.sass */
+/* line 44, C:/Users/Zhenya/Desktop/GitHub/petriaieva.github.io/sass/butterfly.sass */
 .carousel {
   max-width: 414px;
   margin-left: auto;
