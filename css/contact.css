@@ -36,18 +36,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* line 34, ../sass/contact.sass */
+  /* line 35, ../sass/contact.sass */
   .contact_glyphicon {
     margin-top: 50px;
     font-size: 18px;
   }
 
-  /* line 37, ../sass/contact.sass */
+  /* line 38, ../sass/contact.sass */
   .contact p a {
     font-size: 16px;
   }
 
-  /* line 39, ../sass/contact.sass */
+  /* line 40, ../sass/contact.sass */
   .icon {
     width: 30px;
     height: 30px;

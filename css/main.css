@@ -28,24 +28,23 @@ body {
   margin-top: 100px;
   font-family: "Dancing Script", cursive;
   font-size: 48px;
-  regular: 400;
   color: #293f50;
   text-align: center;
 }
 
-/* line 34, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 .aboutme {
   text-align: center;
   font-size: 24px;
   color: #293f50;
 }
 
-/* line 39, ../sass/main.sass */
+/* line 38, ../sass/main.sass */
 .aboutme_min {
   text-align: center;
 }
 
-/* line 44, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .myphoto {
   width: 200px;
   height: 300px;
@@ -54,12 +53,12 @@ body {
   margin-left: 20px;
 }
 
-/* line 51, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .right {
   text-align: right;
 }
 
-/* line 54, ../sass/main.sass */
+/* line 53, ../sass/main.sass */
 .words-wrapper {
   font-size: 48px;
   font-weight: bold;
@@ -67,12 +66,12 @@ body {
   text-align: center;
 }
 
-/* line 63, ../sass/main.sass */
+/* line 62, ../sass/main.sass */
 .new {
   opacity: 0;
 }
 
-/* line 66, ../sass/main.sass */
+/* line 65, ../sass/main.sass */
 .div_opacity {
   -webkit-transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
@@ -83,36 +82,36 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 76, ../sass/main.sass */
+  /* line 75, ../sass/main.sass */
   body {
     font-size: 14px;
   }
 
-  /* line 78, ../sass/main.sass */
+  /* line 77, ../sass/main.sass */
   .heading_main {
     margin-top: 25px;
     font-size: 32px;
   }
 
-  /* line 81, ../sass/main.sass */
+  /* line 80, ../sass/main.sass */
   .slogan {
     font-size: 24px;
     margin-top: 310px;
     color: #293f50;
   }
 
-  /* line 86, ../sass/main.sass */
+  /* line 85, ../sass/main.sass */
   .words-wrapper {
     font-size: 24px;
     color: #293f50;
   }
 
-  /* line 90, ../sass/main.sass */
+  /* line 89, ../sass/main.sass */
   .layout_main {
     margin-bottom: 25px;
   }
 
-  /* line 92, ../sass/main.sass */
+  /* line 91, ../sass/main.sass */
   .myphoto {
     width: 100px;
     height: 150px;
@@ -120,26 +119,26 @@ body {
     margin-top: 20px;
   }
 
-  /* line 97, ../sass/main.sass */
+  /* line 96, ../sass/main.sass */
   .aboutme {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 101, ../sass/main.sass */
+  /* line 100, ../sass/main.sass */
   body {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 104, ../sass/main.sass */
+  /* line 103, ../sass/main.sass */
   #aboutme {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 108, ../sass/main.sass */
+  /* line 107, ../sass/main.sass */
   #aboutme {
     padding-right: 320px;
     padding-left: 320px;
