@@ -91,29 +91,28 @@ body {
 
   /* line 77, ../sass/main.sass */
   .heading_main {
-    margin-top: 25px;
     font-size: 32px;
   }
 
-  /* line 80, ../sass/main.sass */
+  /* line 79, ../sass/main.sass */
   .slogan {
     font-size: 24px;
     margin-top: 310px;
     color: #293f50;
   }
 
-  /* line 85, ../sass/main.sass */
+  /* line 84, ../sass/main.sass */
   .words-wrapper {
     font-size: 24px;
     color: #293f50;
   }
 
-  /* line 89, ../sass/main.sass */
+  /* line 88, ../sass/main.sass */
   .layout_main {
     margin-bottom: 25px;
   }
 
-  /* line 91, ../sass/main.sass */
+  /* line 90, ../sass/main.sass */
   .myphoto {
     width: 100px;
     height: 150px;
@@ -121,26 +120,26 @@ body {
     margin-top: 20px;
   }
 
-  /* line 96, ../sass/main.sass */
+  /* line 95, ../sass/main.sass */
   .aboutme {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 100, ../sass/main.sass */
+  /* line 99, ../sass/main.sass */
   body {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 103, ../sass/main.sass */
+  /* line 102, ../sass/main.sass */
   #aboutme {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 107, ../sass/main.sass */
+  /* line 106, ../sass/main.sass */
   #aboutme {
     padding-right: 320px;
     padding-left: 320px;
