@@ -1,5 +1,7 @@
 $color-darkblue: rgb(0, 0, 65)
 $color-pink: #FF3F80
+$navbar-bg-color-grey: rgba(41, 63, 80,0.8)
+$navbar-bg-color-white: rgb(255, 255, 255)
 
 .layout_portfolio
   background-color: #f0f0f0
@@ -18,8 +20,34 @@ $color-pink: #FF3F80
 .portfolio_image
   padding: 0
 
-.portfolio_item:hover
-  opacity: 0.4
+.overlay
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: block
+  opacity: 0
+  background: $navbar-bg-color-grey
+
+  .p-icon 
+    position: absolute
+    top: -40%
+    left: 40%
+    color: $navbar-bg-color-white
+    -webkit-transition: all 0.3s linear 0s
+    -o-transition: all 0.3s linear 0s
+    -ms-transition: all 0.3s linear 0s
+    -moz-transition: all 0.3s linear 0s
+    transition: all 0.3s linear 0s
+  
+.overlay:hover
+  opacity: 0.8
+ 
+  .p-icon 
+    top: 40%
+    
+ 
 .portfolio_header
   color: $color-darkblue
   margin-bottom: 0px
