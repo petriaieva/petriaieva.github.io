@@ -16,20 +16,20 @@
     margin-bottom: 15px;
   }
 
-  /* line 11, ../sass/skills.sass */
+  /* line 12, ../sass/skills.sass */
   .sertificate {
     display: inline;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 14, ../sass/skills.sass */
+  /* line 15, ../sass/skills.sass */
   #skills {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 18, ../sass/skills.sass */
+  /* line 19, ../sass/skills.sass */
   #skills {
     padding-right: 320px;
     padding-left: 320px;

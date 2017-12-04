@@ -19,8 +19,11 @@ body{
     height: 745px;
     background: url(img/main_bg.png) no-repeat;
     position: relative;
-    
+    background-size: cover;
     }
+.mobile_logo {
+    display: none;
+}
 .navbar-default .navbar-collapse {
     border-color: rgba(0,0,0,0);
 }
@@ -118,6 +121,12 @@ button:hover{
 .home{
     padding-top: 100px;
     background-color: RGB(245,246,247);
+    
+}
+.home-content,.design-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .home span{
     float: right;
@@ -153,6 +162,7 @@ p{
 .design{
     padding-top: 100px;
     background-color: RGB(255,255,255);
+    max-width: 1200px;
 }
 
 .community{
@@ -161,7 +171,7 @@ p{
     height: 790px;
     background: url(img/community_bg.png) no-repeat;
     position: relative;
-    
+    background-size: cover;
 }
 #btn_community{
     border-radius: 3px;
@@ -239,7 +249,25 @@ p{
     }
     
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .home-content,.design-content {
+        margin-left: 2.6vw;
+        margin-right: 2.6vw;
+    }
+}
 @media screen and (max-width: 768px) {
+    .mobile_logo {
+        display: block;
+        margin-top: 20px;
+        
+    }
+    .home-content,.design-content {
+        margin-left: 2.6vw;
+        margin-right: 2.6vw;
+    }
+    .logo {
+        padding-left: 15px;
+    }
     .nav {
         padding: 0;
     }

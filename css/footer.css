@@ -1,28 +1,28 @@
-/* line 4, ../sass/footer.sass */
+/* line 5, ../sass/footer.sass */
 .footer {
-  background-color: #293f50;
+  background-color: rgba(18, 32, 52, 0.8);
   text-align: center;
   padding: 20px 20px;
 }
 
-/* line 9, ../sass/footer.sass */
+/* line 10, ../sass/footer.sass */
 .footer_copy {
   font-size: 12px;
   color: #faf9f9;
 }
 
-/* line 13, ../sass/footer.sass */
+/* line 14, ../sass/footer.sass */
 .footer_copy_text {
   margin: 0;
   margin-top: 10px;
 }
 
-/* line 17, ../sass/footer.sass */
+/* line 18, ../sass/footer.sass */
 .footer_social {
   padding: 0px;
 }
 
-/* line 20, ../sass/footer.sass */
+/* line 21, ../sass/footer.sass */
 .footer_social_item {
   padding: 10px;
   color: white;

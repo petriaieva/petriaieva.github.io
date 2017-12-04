@@ -1,16 +1,17 @@
 /* MAIN */
 $color_white: rgb(255,255,255)
-$color-grey: rgb(41, 63, 80)
-$color-body: rgba(41, 63, 80,0.87)
+$color-accent: #dc7928
+$color-basic: #4b666e
+$color-header: #c32439 
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Questrial')
 
 body 
   font-family: 'Questrial', sans-serif
   font-size: 18px
-  color: $color-body
+  color: $color-basic
   line-height: 1.5
-
+  overflow-x: hidden
   
 .slogan
   font-size: 48px
@@ -27,13 +28,13 @@ body
   margin-top: 100px
   font-family: 'Dancing Script', cursive
   font-size: 48px
-  color: $color-grey
+  color: $color-header
   text-align: center
   
 .aboutme 
   text-align: center
   font-size: 24px
-  color: $color-grey
+  color: $color-accent
 
 .aboutme_min 
   
@@ -79,11 +80,11 @@ body
   .slogan
     font-size: 24px
     margin-top: 310px
-    color: $color-grey
+    color: $color-basic
     
   .words-wrapper
     font-size: 24px
-    color: $color-grey
+    color: $color-basic
     
   .layout_main
     margin-bottom: 25px
@@ -95,9 +96,12 @@ body
   .aboutme 
     font-size: 16px
   
-@media screen and (max-width: 992px)
+@media screen and (min-width: 768px) and (max-width: 992px)
+    
   body
-    font-size: 16px   
+    font-size: 16px
+  .heading_main
+    margin-top: 20px
 @media screen and (min-width: 1400px)
   #aboutme
     padding-right: 60px

@@ -1,9 +1,9 @@
 /* NAVBAR */
-$navbar-bg-color-grey: rgba(41, 63, 80,0.8)
+$navbar-bg-color-grey: rgba(18, 32, 52, 0.8)
 $navbar-bg-color-white: rgba(255, 255, 255, 0)
 $navbar-link-color: rgb(255, 255, 255)
 $color_white: rgb(255, 255, 255)
-$color-grey: rgb(41, 63, 80)
+$color-basic: #4b666e
 
 .menu
   position: relative
@@ -35,7 +35,7 @@ $color-grey: rgb(41, 63, 80)
 
 .navigation_scrolled
   opacity: 0.8    
-  background: $color-grey
+  background: $navbar-bg-color-grey
 
 .nav_list
   padding: 0
@@ -59,32 +59,31 @@ $color-grey: rgb(41, 63, 80)
   font-size: 48px
   font-weight: bold
   padding-left: 20px
-
+@media screen and (max-width: 767px)
+  .nav_list
+    margin: 0
+    padding: 0
+    text-align: center
+  .nav_list li
+    display: block
+    margin: 0
+    padding: 0
+  .nav_link
+    display: block
+    margin: 0
+    padding: 5px 5px 5px 5px 
+  .navbar-default
+    text-align: left    
 @media screen and (max-width: 768px)
   .menu
     padding: 0
     height: 300px
     width: 100%
-    
-  .nav_list
-    margin: 0
-    padding: 0
-    text-align: center
-
-  .nav_list li
-    display: block
-    margin: 0
-    padding: 0
-
-  .nav_link
-    display: block
-    margin: 0
-    padding: 5px 5px 5px 5px
-  .navbar-default
-    text-align: left
+  
   .logo
     font-size: 24px
-    margin-top: 10px    
+    margin-top: 10px 
+    padding-left: 2.6vw
 @media screen and (min-width: 1400px)
   .navigation
     padding-right: 60px

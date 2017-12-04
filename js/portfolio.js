@@ -21,7 +21,7 @@ function scroller() {
       if(typeof event.callback !== "undefined") {
         event.callback();
       }
-
+      
       // set or remove class
       if(typeof event.selector !== "undefined") {
         if (scrollPosition() > event.from && scrollPosition() < event.to) {
@@ -133,16 +133,17 @@ $(function initNav() {
     var scroll = scroller();
       scroll.init();
     
+    
         scroll.add({
         selector: "#js_nav",
         from: 170,
         className: "navigation_scrolled"
       });
-   
+     
   });
 
 $(document).ready(function(){
-    var i;
+    var i, show = false;
     $('a[href^="#"]').bind('click.smoothscroll',function (e) {
      e.preventDefault();
 
@@ -155,6 +156,8 @@ $(document).ready(function(){
      window.location.hash = target;
      });
      });
+   
+    new WOW().init();
     $(".nav_link").click(function(){
         $("#navbar-ex-collapse").removeClass("in");
     });

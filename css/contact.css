@@ -14,19 +14,19 @@
 /* line 15, ../sass/contact.sass */
 .contact p a {
   font-size: 24px;
-  color: rgba(41, 63, 80, 0.87);
+  color: #4b666e;
   text-decoration: none;
 }
 
 /* line 20, ../sass/contact.sass */
 .contact p a:hover {
-  color: #293f50;
+  color: #dc7928;
   text-decoration: none;
 }
 
 /* line 24, ../sass/contact.sass */
 .icon {
-  background-color: #293f50;
+  background-color: #4b666e;
   color: white;
   border-radius: 50%;
   width: 40px;
