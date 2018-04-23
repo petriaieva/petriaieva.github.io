@@ -161,6 +161,7 @@ $(document).ready(function(){
     $(".nav_link").click(function(){
         $("#navbar-ex-collapse").removeClass("in");
     });
+    
     $.fn.show_Text = function() {
       var string = this.text();
       return this.each(function(){
