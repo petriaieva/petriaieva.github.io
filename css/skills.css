@@ -6,7 +6,8 @@
 
 /* line 4, ../sass/skills.sass */
 .wrap_myphoto {
-  text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
