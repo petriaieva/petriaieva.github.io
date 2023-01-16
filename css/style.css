@@ -20,14 +20,11 @@ a:hover .portfolio_header {
 }
 .portfolio_img {
   margin: 0 auto;
-  transform: translateZ(0);
-  transition: transform .3s ease-out;
+  
   aspect-ratio: 4/3;
   
 }
-.portfolio_img:hover {
-  transform: translateZ(0) scale(1.05);
-}
+
 
 
 
@@ -327,7 +324,24 @@ a:hover .portfolio_header {
 /* line 16, ../sass/portfolio.sass */
 .portfolio_item {
   position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
 }
+
+
+
+        /* :focus and :active just added for a some android versions to simulate hover effect*/
+.portfolio_item:hover, .portfolio_item:focus, .portfolio_item:active {
+            box-shadow: 0 8px 16px 3px rgba( #000, .6 );
+            transform: translateY( -3px ) scale( 1.05 ) rotateX( 15deg );
+
+            
+}
+  
 
 /* line 20, ../sass/portfolio.sass */
 .portfolio_desc {
