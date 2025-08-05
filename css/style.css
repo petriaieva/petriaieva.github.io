@@ -376,6 +376,11 @@ a:hover {
 
 }
 
+.portfolio_header_desc {
+
+  margin-bottom: 25px;
+}
+
 /* line 23, ../sass/portfolio.sass 
 .portfolio_image {
   padding: 0;
