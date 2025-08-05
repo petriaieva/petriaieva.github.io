@@ -351,10 +351,12 @@ a:hover {
   transform-origin: center top;
   transform-style: preserve-3d;
   transform: translateZ(0);
-  transition: 0.3s;
+
 }
 
-
+.portfolio_item img {
+  transition: all .3s ease-out;
+}
 
 /* :focus and :active just added for a some android versions to simulate hover effect*/
 .portfolio_item:hover img,
