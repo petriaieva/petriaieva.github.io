@@ -426,10 +426,7 @@ a:hover {
     margin: 10px;
   }
 
-  /* line 46, ../sass/portfolio.sass */
-  .portfolio_desc {
-    margin-top: 25px;
-  }
+
 }
 
 @media screen and (min-width: 1400px) {
