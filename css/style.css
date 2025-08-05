@@ -334,6 +334,7 @@ a:hover {
   background-color: #f0f0f0;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 80px;
 }
 
 /* line 11, ../sass/portfolio.sass */
@@ -521,7 +522,7 @@ a:hover {
 .contact {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 100px;
+
 }
 
 /* line 10, ../sass/contact.sass */
