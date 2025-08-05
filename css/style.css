@@ -357,9 +357,9 @@ a:hover {
 
 
 /* :focus and :active just added for a some android versions to simulate hover effect*/
-.portfolio_item:hover,
-.portfolio_item:focus,
-.portfolio_item:active {
+.portfolio_item:hover img,
+.portfolio_item:focus img,
+.portfolio_item:active img {
 
   transform: scale(1.05);
 
