@@ -385,6 +385,7 @@ a:hover .portfolio_header {
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: 600;
+  transition: all .3s ease-out;
 }
 
 /* line 30, ../sass/portfolio.sass */
@@ -602,6 +603,6 @@ a:hover .portfolio_header {
   color: white;
 }
 
-.footer_social_item:hover {
+a.footer_social_item:hover {
   opacity: .75;
 }
