@@ -19,7 +19,7 @@ a:hover {
   transition: all .3s ease-out;
 }
 
-a:hover .portfolio_header {
+.portfolio_header a:hover {
   color: #c32439;
 }
 
@@ -604,5 +604,6 @@ a:hover .portfolio_header {
 }
 
 a.footer_social_item:hover {
+  color: white;
   opacity: .75;
 }
