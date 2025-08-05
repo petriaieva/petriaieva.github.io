@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Questrial");
+
 /* BEM */
 /* block-name--element-name__modifier */
 /* MAIN */
@@ -10,19 +11,23 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
 }
-a, a:hover {
+
+a,
+a:hover {
   color: inherit;
   text-decoration: none;
   transition: all .3s ease-out;
 }
+
 a:hover .portfolio_header {
-    color: #c32439;
+  color: #c32439;
 }
+
 .portfolio_img {
   margin: 0 auto;
-  
+
   aspect-ratio: 4/3;
-  
+
 }
 
 
@@ -102,6 +107,7 @@ a:hover .portfolio_header {
 }
 
 @media screen and (max-width: 768px) {
+
   /* line 76, ../sass/main.sass */
   body {
     font-size: 14px;
@@ -144,7 +150,9 @@ a:hover .portfolio_header {
     font-size: 16px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
   /* line 101, ../sass/main.sass */
   body {
     font-size: 16px;
@@ -155,20 +163,25 @@ a:hover .portfolio_header {
     margin-top: 20px;
   }
 }
+
 @media screen and (min-width: 1400px) {
+
   /* line 106, ../sass/main.sass */
   #aboutme {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
+
 @media screen and (min-width: 1920px) {
+
   /* line 110, ../sass/main.sass */
   #aboutme {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
+
 /* NAVBAR */
 /* line 8, ../sass/nav.sass */
 .menu {
@@ -231,8 +244,9 @@ a:hover .portfolio_header {
 
 /* line 54, ../sass/nav.sass */
 .nav_link:hover {
-  text-decoration: underline;
-  color: white;
+  /*text-decoration: underline;
+  color: white;*/
+  opacity: .8;
 }
 
 /* line 57, ../sass/nav.sass */
@@ -244,6 +258,7 @@ a:hover .portfolio_header {
 }
 
 @media screen and (max-width: 767px) {
+
   /* line 63, ../sass/nav.sass */
   .nav_list {
     margin: 0;
@@ -270,7 +285,9 @@ a:hover .portfolio_header {
     text-align: left;
   }
 }
+
 @media screen and (max-width: 768px) {
+
   /* line 78, ../sass/nav.sass */
   .menu {
     padding: 0;
@@ -285,7 +302,9 @@ a:hover .portfolio_header {
     padding-left: 2.6vw;
   }
 }
+
 @media screen and (min-width: 1400px) {
+
   /* line 88, ../sass/nav.sass */
   .navigation {
     padding-right: 60px;
@@ -296,7 +315,9 @@ a:hover .portfolio_header {
     padding-left: 60px;
   }
 }
+
 @media screen and (min-width: 1920px) {
+
   /* line 93, ../sass/nav.sass */
   .navigation {
     padding-right: 320px;
@@ -307,6 +328,7 @@ a:hover .portfolio_header {
     padding-left: 320px;
   }
 }
+
 /* line 6, ../sass/portfolio.sass */
 .layout_portfolio {
   background-color: #f0f0f0;
@@ -317,7 +339,7 @@ a:hover .portfolio_header {
 /* line 11, ../sass/portfolio.sass */
 .portfolio_items {
   display: block;
-  
+
   text-align: center;
 }
 
@@ -334,19 +356,21 @@ a:hover .portfolio_header {
 
 
 
-        /* :focus and :active just added for a some android versions to simulate hover effect*/
-.portfolio_item:hover, .portfolio_item:focus, .portfolio_item:active {
-            box-shadow: 0 8px 16px 3px rgba( #000, .6 );
-            transform: translateY( -3px ) scale( 1.05 ) rotateX( 15deg );
+/* :focus and :active just added for a some android versions to simulate hover effect*/
+.portfolio_item:hover,
+.portfolio_item:focus,
+.portfolio_item:active {
+  box-shadow: 0 8px 16px 3px rgba(#000, .6);
+  transform: translateY(-3px) scale(1.05) rotateX(15deg);
 
-            
+
 }
-  
+
 
 /* line 20, ../sass/portfolio.sass */
 .portfolio_desc {
   margin: 4rem 0;
- 
+
 }
 
 /* line 23, ../sass/portfolio.sass 
@@ -369,6 +393,7 @@ a:hover .portfolio_header {
 }
 
 @media screen and (max-width: 768px) {
+
   /* line 34, ../sass/portfolio.sass */
   .portfolio_items {
     margin: 20px 0;
@@ -389,7 +414,9 @@ a:hover .portfolio_header {
     font-size: 16px;
   }
 }
+
 @media screen and (max-width: 992px) {
+
   /* line 44, ../sass/portfolio.sass */
   .portfolio_item {
     margin: 10px;
@@ -400,20 +427,25 @@ a:hover .portfolio_header {
     margin-top: 25px;
   }
 }
+
 @media screen and (min-width: 1400px) {
+
   /* line 49, ../sass/portfolio.sass */
   #portfolio {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
+
 @media screen and (min-width: 1920px) {
+
   /* line 53, ../sass/portfolio.sass */
   #portfolio {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
+
 /* line 1, ../sass/iuse.sass */
 .iuse_images {
   margin-top: 30px;
@@ -443,12 +475,13 @@ a:hover .portfolio_header {
 
 /* line 4, ../sass/skills.sass */
 .wrap_myphoto {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
 }
 
 
 @media screen and (max-width: 768px) {
+
   /* line 8, ../sass/skills.sass */
   .skills_items {
     margin-top: 15px;
@@ -458,24 +491,29 @@ a:hover .portfolio_header {
   /* line 12, ../sass/skills.sass */
   .sertificate {
     display: inline;
-    
+
   }
 
 }
+
 @media screen and (min-width: 1400px) {
+
   /* line 15, ../sass/skills.sass */
   #skills {
     padding-right: 60px;
     padding-left: 60px;
   }
 }
+
 @media screen and (min-width: 1920px) {
+
   /* line 19, ../sass/skills.sass */
   #skills {
     padding-right: 320px;
     padding-left: 320px;
   }
 }
+
 /* line 5, ../sass/contact.sass */
 .contact {
   text-align: center;
@@ -514,6 +552,7 @@ a:hover .portfolio_header {
 }
 
 @media screen and (max-width: 768px) {
+
   /* line 35, ../sass/contact.sass */
   .contact_glyphicon {
     margin-top: 50px;
@@ -531,6 +570,7 @@ a:hover .portfolio_header {
     height: 30px;
   }
 }
+
 /* line 5, ../sass/footer.sass */
 .footer {
   background-color: rgba(18, 32, 52, 0.8);
@@ -553,7 +593,7 @@ a:hover .portfolio_header {
 /* line 18, ../sass/footer.sass */
 .footer_social {
   padding: 0px;
-  
+
 }
 
 /* line 21, ../sass/footer.sass */
