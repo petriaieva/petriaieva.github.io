@@ -334,7 +334,7 @@ a:hover {
   background-color: #f0f0f0;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
 }
 
 /* line 11, ../sass/portfolio.sass */
@@ -378,7 +378,7 @@ a:hover {
 
 .portfolio_header_desc {
 
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 /* line 23, ../sass/portfolio.sass 
