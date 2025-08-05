@@ -246,7 +246,7 @@ a:hover .portfolio_header {
 .nav_link:hover {
   /*text-decoration: underline;
   color: white;*/
-  opacity: .8;
+  opacity: .75;
 }
 
 /* line 57, ../sass/nav.sass */
@@ -600,4 +600,8 @@ a:hover .portfolio_header {
 .footer_social_item {
   padding: 10px;
   color: white;
+}
+
+.footer_social_item:hover {
+  opacity: .75;
 }
