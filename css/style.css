@@ -216,7 +216,7 @@ a:hover {
   /*padding-right: 30px;*/
 }
 
-.nav-bar {
+.navbar {
   margin-bottom: 0;
 }
 
@@ -292,10 +292,6 @@ a:hover {
   /* line 75, ../sass/nav.sass */
   .navbar-default {
     text-align: left;
-  }
-
-  .nav-bar {
-    margin-bottom: 0;
   }
 
   .navbar-toggle {
