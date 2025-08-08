@@ -216,6 +216,7 @@ a:hover {
   width: 100%;
   color: white;
   /*padding-right: 30px;*/
+  z-index: 100;
 }
 
 .navbar {
@@ -229,7 +230,6 @@ a:hover {
 
 /* line 36, ../sass/nav.sass */
 .navigation_scrolled {
-  opacity: 0.8;
   background: rgba(18, 32, 52, 0.8);
 }
 
