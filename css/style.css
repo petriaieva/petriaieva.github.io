@@ -213,7 +213,7 @@ a:hover {
   top: 0;
   width: 100%;
   color: white;
-  padding-right: 30px;
+  /*padding-right: 30px;*/
 }
 
 /* line 36, ../sass/nav.sass */
@@ -225,7 +225,7 @@ a:hover {
 /* line 40, ../sass/nav.sass */
 .nav_list {
   padding: 0;
-  margin: 16px 0;
+  margin: 32px 0;
 }
 
 /* line 44, ../sass/nav.sass */
@@ -283,6 +283,11 @@ a:hover {
   /* line 75, ../sass/nav.sass */
   .navbar-default {
     text-align: left;
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    margin-right: 25px;
   }
 }
 
