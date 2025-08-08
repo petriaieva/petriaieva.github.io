@@ -124,7 +124,7 @@ a:hover {
   /* line 80, ../sass/main.sass */
   .slogan {
     font-size: 24px;
-    margin-top: 200px;
+    margin-top: 250px;
     color: #4b666e;
   }
 
@@ -308,7 +308,7 @@ a:hover {
   /* line 78, ../sass/nav.sass */
   .menu {
     padding: 0;
-    height: 300px;
+    height: 400px;
     width: 100%;
   }
 
