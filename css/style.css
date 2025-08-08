@@ -441,6 +441,7 @@ a:hover {
   /* line 38, ../sass/portfolio.sass */
   .portfolio_desc {
     margin-top: 25px;
+    margin-bottom: 30px;
   }
 
   /* line 40, ../sass/portfolio.sass */
@@ -453,6 +454,11 @@ a:hover {
     padding-bottom: 30px;
     padding-top: 30px;
 
+  }
+
+  .portfolio_header_desc {
+
+    margin-bottom: 30px;
   }
 }
 
