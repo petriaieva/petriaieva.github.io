@@ -294,6 +294,10 @@ a:hover {
     text-align: left;
   }
 
+  .nav-bar {
+    margin-bottom: 0;
+  }
+
   .navbar-toggle {
     margin-top: 10px;
     margin-right: 30px;
