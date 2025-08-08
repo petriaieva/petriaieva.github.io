@@ -220,11 +220,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.navbar-header,
-.navbar-collapse {
-  margin-top: 30px;
-}
-
 /* line 36, ../sass/nav.sass */
 .navigation_scrolled {
   opacity: 0.8;
@@ -299,10 +294,7 @@ a:hover {
     margin-right: 30px;
   }
 
-  .navbar-header,
-  .navbar-collapse {
-    margin-top: 10px;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
