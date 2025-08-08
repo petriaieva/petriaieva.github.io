@@ -216,6 +216,15 @@ a:hover {
   /*padding-right: 30px;*/
 }
 
+.nav-bar {
+  margin-bottom: 0;
+}
+
+.navbar-header,
+.navbar-collapse {
+  margin-top: 30px;
+}
+
 /* line 36, ../sass/nav.sass */
 .navigation_scrolled {
   opacity: 0.8;
@@ -287,7 +296,7 @@ a:hover {
 
   .navbar-toggle {
     margin-top: 10px;
-    margin-right: 25px;
+    margin-right: 30px;
   }
 }
 
