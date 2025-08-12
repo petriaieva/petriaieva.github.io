@@ -44,7 +44,7 @@ a:hover {
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-top: 25%;
+  /*margin-top: 25%;*/
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -130,7 +130,7 @@ a:hover {
   /* line 80, ../sass/main.sass */
   .slogan {
     font-size: 24px;
-    margin-top: 250px;
+    /*margin-top: 250px;*/
     color: #4b666e;
   }
 
