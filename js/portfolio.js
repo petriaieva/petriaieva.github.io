@@ -144,7 +144,7 @@ $(function initNav() {
 
 $(document).ready(function () {
   var i, show = false;
-  $('a[href^="#"]').bind('click.smoothscroll', function (e) {
+  /*$('a[href^="#"]').bind('click.smoothscroll', function (e) {
     e.preventDefault();
 
     var target = this.hash,
@@ -155,7 +155,7 @@ $(document).ready(function () {
     }, 600, 'swing', function () {
       window.location.hash = target;
     });
-  });
+  });*/
 
   new WOW().init();
   $(".nav_link").click(function () {
