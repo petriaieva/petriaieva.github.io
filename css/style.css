@@ -237,12 +237,12 @@ a:hover {
   margin-bottom: 0;
 }
 
-/*.navbar-header,
+.navbar-header,
 .navbar-collapse {
-  min-height: 62px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}*/
+  /*min-height: 62px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* line 36, ../sass/nav.sass */
 .navigation_scrolled {
