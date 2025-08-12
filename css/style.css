@@ -32,6 +32,11 @@ a:hover {
 
 
 
+.slogan_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* line 16, ../sass/main.sass */
 .slogan {
@@ -202,6 +207,8 @@ a:hover {
   background-size: cover;
   padding-left: 0px;
   padding-right: 0px;
+  display: flex;
+
 }
 
 /* line 24, ../sass/nav.sass */
