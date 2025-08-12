@@ -4,6 +4,10 @@
 /* block-name--element-name__modifier */
 /* MAIN */
 /* line 9, ../sass/main.sass */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Questrial", sans-serif;
   font-size: 16px;
