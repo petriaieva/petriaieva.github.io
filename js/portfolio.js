@@ -150,10 +150,8 @@ $(document).ready(function () {
     var target = this.hash,
       $target = $(target);
 
-    var scrollMarginTop = 60;
-
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top - scrollMarginTop
+      'scrollTop': $target.offset().top
     }, 600, 'swing', function () {
       window.location.hash = target;
     });
