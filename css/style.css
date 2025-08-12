@@ -127,6 +127,12 @@ a:hover {
     margin-top: 2rem;
   }
 
+  .slogan_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
   /* line 80, ../sass/main.sass */
   .slogan {
     font-size: 24px;
