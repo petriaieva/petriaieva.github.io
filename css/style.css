@@ -36,6 +36,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 /* line 16, ../sass/main.sass */
