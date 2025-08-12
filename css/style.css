@@ -438,7 +438,7 @@ a:hover {
 
   /* line 34, ../sass/portfolio.sass */
   .portfolio_items {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   /* line 36, ../sass/portfolio.sass */
@@ -449,7 +449,11 @@ a:hover {
   /* line 38, ../sass/portfolio.sass */
   .portfolio_desc {
     margin-top: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+
+  .mb-0 {
+    margin-bottom: 0 !important;
   }
 
   /* line 40, ../sass/portfolio.sass */
