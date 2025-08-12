@@ -237,6 +237,7 @@ a:hover {
 .navbar-collapse {
   min-height: 62px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* line 36, ../sass/nav.sass */
