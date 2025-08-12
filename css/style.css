@@ -55,6 +55,7 @@ a:hover {
   background-color: white;
   padding-bottom: 100px;
   padding-top: 100px;
+  scroll-margin-top: 30px;
 }
 
 /* line 27, ../sass/main.sass */
@@ -369,11 +370,12 @@ a:hover {
   padding-left: 20px;
   padding-bottom: 100px;
   padding-top: 100px;
-
+  scroll-margin-top: 30px;
 }
 
 .layout_portfolio_skills {
   padding-bottom: 80px;
+  scroll-margin-top: 30px;
 }
 
 /* line 11, ../sass/portfolio.sass */
