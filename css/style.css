@@ -219,6 +219,7 @@ a:hover {
   color: white;
   /*padding-right: 30px;*/
   z-index: 100;
+  min-height: 62px;
 }
 
 .navbar {
