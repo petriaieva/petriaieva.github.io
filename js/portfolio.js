@@ -150,7 +150,7 @@ $(document).ready(function () {
     var target = this.hash,
       $target = $(target);
 
-    var scrollMarginTop = 80;
+    var scrollMarginTop = 30;
 
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top - scrollMarginTop
